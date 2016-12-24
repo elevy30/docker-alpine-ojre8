@@ -6,9 +6,9 @@ This image is based on Alpine Linux image, which is only a 5MB image, and contai
 [OracleJDK 8](http://www.oracle.com/technetwork/java/javase/overview/index.html).
 
 JDK bundle contains lots of unused files when runing simple java app, so all unneeded file was removed from the image. There are 1
-tags: `small` (everything but compiler and jvm is removed). `master` branch refers to `small` tag
+tags: `slim` (everything but compiler and jvm is removed).
 
-`small` (`master` branch) download image size is around 60Mb
+download image size is around 60Mb
 
 Usage Example
 -------------
